@@ -1,8 +1,11 @@
  import React from 'react'
+import Home from './Pages/Home-Page/Home'
  
  function App() {
    return (
-     <div>App</div>
+    <> 
+    < Home/>
+     </>
    )
  }
  

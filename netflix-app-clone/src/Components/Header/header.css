@@ -1,0 +1,51 @@
+ .header_outer_container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    height: 10vh;
+    background-color: rgb(20, 20, 20);
+    background-color: transparent;
+}
+
+.nav_black {
+    background-color: rgb(20, 20, 20);
+}
+
+.header_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left ul,
+.header_right ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_left li,
+.header_right li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.header_left li:hover,
+.header_right li:hover {
+    text-decoration: underline;
+}
+
+.header_l {
+    display: inline-block;
+}
+ 
+ 
+
