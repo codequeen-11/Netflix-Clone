@@ -81,6 +81,15 @@
 .banner_description {
   font-family: 'Open Sans', sans-serif;
 }
+
+.banner.loading,
+.banner.error {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4rem;
+}
+
  
 
  
